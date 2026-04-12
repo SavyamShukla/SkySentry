@@ -20,8 +20,8 @@ public class VideoFrameExtractor {
     /**
      * Extract a frame from a video at the specified time.
      *
-     * @param videoPath  Absolute path to the video file
-     * @param timeSec    Time in seconds to extract the frame from
+     * @param videoPath Absolute path to the video file
+     * @param timeSec   Time in seconds to extract the frame from
      * @return BufferedImage of the extracted frame, or null on failure
      */
     public static BufferedImage extractFrame(String videoPath, double timeSec) {
